@@ -10,3 +10,6 @@ for ip in targets:
     esta_vivo = ping_host(ip)
     mensaje = format_result(ip, esta_vivo)
     print(mensaje)
+
+
+print("")
